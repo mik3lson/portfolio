@@ -211,6 +211,7 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 85vh; 
+  padding-bottom: 2vh;
 }
 
 
@@ -230,6 +231,7 @@ html {
     line-height: 1.6;
     letter-spacing: .06rem;
     scroll-behavior: smooth;
+    font-size: 20px;
 }
 
 h1 {
@@ -738,4 +740,117 @@ blockquote {
     color: #666;
     font-style: italic;
     background: #f9f9f9;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-theme .header {
+    background: #252525;
+}
+
+body.dark-theme .menu {
+    background: #252525;
+    border-right-color: #444;
+}
+
+body.dark-theme .header-right {
+    color: #e0e0e0;
+}
+
+body.dark-theme a {
+    color: #88ccff;
+}
+
+body.dark-theme a:hover {
+    color: #aaddff;
+}
+
+body.dark-theme .theme-toggler {
+    color: #e0e0e0;
+}
+
+body.dark-theme .theme-toggler svg path {
+    fill: #e0e0e0;
+}
+
+body.dark-theme code {
+    background-color: #2a2a2a;
+    color: #ff9999;
+}
+
+body.dark-theme pre {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-theme .post-info {
+    border-color: #444;
+}
+
+body.dark-theme .post-meta {
+    color: #aaa;
+}
+
+body.dark-theme h1, 
+body.dark-theme h2, 
+body.dark-theme h3, 
+body.dark-theme h4, 
+body.dark-theme h5, 
+body.dark-theme h6 {
+    color: #fff;
+}
+
+body.dark-theme blockquote {
+    border-left-color: #666;
+    background: #2a2a2a;
+    color: #999;
+}
+
+body.dark-theme hr {
+    border-color: #444;
+}
+
+body.dark-theme .project-screenshot {
+    background: #1a1a1a;
+    border-bottom-color: #444;
+}
+
+body.dark-theme .project-screenshot img {
+    filter: contrast(1.1) brightness(1.1);
+}
+
+body.dark-theme .logo__cursor {
+    background: #ffffff;
+}
+
+body.dark-theme .projects-content {
+    background: #1a1a1a;
+}
+
+body.dark-theme .projects-content::before {
+    background: 
+        repeating-linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.03) 0px,
+            transparent 1px,
+            transparent 2px,
+            rgba(255, 255, 255, 0.03) 3px
+        );
+}
+
+body.dark-theme .projects-hero h1 {
+    color: #ffffff;
+}
+
+body.dark-theme .eyebrow {
+    color: #e0e0e0;
+}
+
+body.dark-theme .projects-subtitle {
+    color: #aaa;
 }
